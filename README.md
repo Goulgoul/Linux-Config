@@ -1,4 +1,4 @@
-### linuxconfig
+#linuxconfig
 
 This repo helps me store my linux configuration online.
 
