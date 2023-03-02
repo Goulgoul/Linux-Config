@@ -25,13 +25,13 @@ if [[ -e /usr/share/zsh/zsh-config ]]; then
 fi
 
 
-PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'"[""%f"
-PROMPT+="%F{green}%n%f"  # colour user name
-PROMPT+="@"
-PROMPT+="%F{#33aadd}${${(%):-%m}#zoltan-}%f"  # Blue host name, minus zoltan
+PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'"[""%f" # some white-ish arrows and brackets
+PROMPT+="%F{#11d116}%n%f" # green username
+PROMPT+="%F{#ffffff}@%f" # white asterisk
+PROMPT+="%F{#33aadd}${${(%):-%m}}%f"  # Arch-blue lue host name
 PROMPT+="%F{#d0d0d0}""]""%f"
 PROMPT+=" "
-PROMPT+="%F{yellow}%d %f" # Yellow working directory
+PROMPT+="%F{#ffa009}%d %f" # Yellow working directory
 # PROMPT+="%F{red}"$'\U0d9e'"%f" # red AMOGUS
 PROMPT+=$' '
 
@@ -49,7 +49,9 @@ alias yayclean='yay -R $(yay -Qdtq)'
 alias grep='grep --line-number --color'
 alias takeoff='sudo rfkill block all'
 alias land='sudo rfkill unblock all'
-
+alias ip='ip --color'
+alias shu='poweroff'
+alias reb='reboot'
 # Alias to run pyfda with legible text
 alias pyfda()
 { 
