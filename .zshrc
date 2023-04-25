@@ -1,3 +1,5 @@
+# zsh config file - hard-linked to ~/git/linuxconfig to be saved online
+
 
 # The following lines were added by compinstall
 
