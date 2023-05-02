@@ -86,10 +86,4 @@ PROMPT+="%F{#d0d0d0}"
 PROMPT+=$'\U2514'$'\U2500'">"
 PROMPT+="%f "
 
-
-
-
-
-
-
 export PATH=$PATH:$HOME/.local/bin
