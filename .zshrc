@@ -26,6 +26,8 @@ if [[ -e /usr/share/zsh/zsh-config ]]; then
 	source /usr/share/zsh/zsh-config
 fi
 
+# xinput set-button-map 10 1 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9"
 # xserver related aliases
 alias hi='/home/mouss/.hi.sh'
 alias bye='pkill -15 -f xserver && pkill -15 -f pulseaudio && pkill -15 -f sddm'
