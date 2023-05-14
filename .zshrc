@@ -26,8 +26,6 @@ if [[ -e /usr/share/zsh/zsh-config ]]; then
 	source /usr/share/zsh/zsh-config
 fi
 
-# xinput set-button-map 10 1 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"
 # xserver related aliases
 alias hi='/home/mouss/.hi.sh'
 alias bye='pkill -15 -f xserver && pkill -15 -f pulseaudio && pkill -15 -f sddm'
@@ -62,6 +60,8 @@ alias piobuild='pio run --target build --environment'
 alias pioupload='pio run --target upload --environment'
 alias piomonitor='pio run --target monitor --environment'
 
+# neofetch
+alias nf='neofetch'
 # Alias to run pyfda with legible text
 #alias pyfda()
 #{ 
@@ -69,10 +69,10 @@ alias piomonitor='pio run --target monitor --environment'
 #	pyfdax;
 #	plasma-apply-colorscheme SweetAmbarBlue;
 #}
-
+alias pf='pfetch'
 # PROMTP configuration
-PROMPT=" "$'\n'
-PROMPT+="%F{#d0d0d0}"$'\U250c'$'\U2500'"[""%f" # some white-ish arrows and brackets
+#PROMPT="" # some white-ish arrows and brackets
+PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'"[""%f" # some white-ish arrows and brackets
 PROMPT+="%F{#11d116}%n%f" # green username
 PROMPT+="%F{#ffffff}@%f" # white asterisk
 PROMPT+="%F{#33aadd}${${(%):-%m}}%f"  # Arch-blue lue host name
