@@ -36,7 +36,7 @@ alias yayclean='yay -R $(yay -Qdtq)'
 
 # common commands aliases
 alias grep='grep --line-number --color'
-alias ls='ls -lash'
+alias ls='ls -lash --color'
 alias ip='ip --color'
 
 # aeroplane mode aliases
