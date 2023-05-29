@@ -40,8 +40,8 @@ alias ls='ls -lash --color'
 alias ip='ip --color'
 
 # aeroplane mode aliases
-alias takeoff='sudo rfkill block all'
-alias land='sudo rfkill unblock all'
+alias takeoff='rfkill block all'
+alias land='rfkill unblock all'
 
 # bluetooth aliases
 alias blon='bluetoothctl power on'
