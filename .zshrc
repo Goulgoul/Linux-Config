@@ -54,7 +54,7 @@ alias bldisconnect='bluetoothctl disconnect'
 alias shu='poweroff'
 alias reb='reboot'
 alias hib='systemctl hibernate'
-
+alias acf='auto-cpufreq'
 # PlatformIO aliases
 alias piobuild='pio run --target build --environment'
 alias pioupload='pio run --target upload --environment'
