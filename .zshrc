@@ -1,3 +1,21 @@
+# PROMTP configuration
+#PROMPT="" # some white-ish arrows and brackets
+PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'"[""%f" # some white-ish arrows and brackets
+PROMPT+="%F{#11d116}%n%f" # green username
+PROMPT+="%F{#ffffff}@%f" # white asterisk
+PROMPT+="%F{#33aadd}${${(%):-%m}}%f"  # Arch-blue lue host name
+PROMPT+="%F{#d0d0d0}""]""%f"
+PROMPT+=" "
+PROMPT+="%F{#ffa009}%d %f" # Yellow working directory
+
+# PROMPT+="%F{red}"$'\U0d9e'"%f" # red AMOGUS
+PROMPT+=$' '
+
+PROMPT+=$'\n'
+
+PROMPT+="%F{#d0d0d0}"
+PROMPT+=$'\U2514'$'\U2500'">"
+PROMPT+="%f "
 # zsh config file - hard-linked to ~/git/linuxconfig to be saved online
 
 
@@ -9,7 +27,6 @@
 #zstyle ':completion:*' max-errors 2
 #zstyle ':completion:*' substitute 1
 zstyle :compinstall filename '/home/mouss/.zshrc'
-
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
@@ -28,7 +45,7 @@ fi
 
 # xserver related aliases
 alias hi='/home/mouss/.hi.sh'
-alias bye='pkill -15 -f xserver && pkill -15 -f pulseaudio && pkill -15 -f sddm'
+alias bye='(pkill -15 -f wayland || pkill -15 -f xserver) && pkill -15 -f pulseaudio && pkill -15 -f sddm'
 
 # pacman and yay related aliases
 alias pacclean='sudo pacman -R $(pacman -Qdtq)'
@@ -46,6 +63,7 @@ alias land='rfkill unblock all'
 # bluetooth aliases
 alias blon='bluetoothctl power on'
 alias bloff='bluetoothctl power off'
+alias bllist='bluetoothctl devices'
 alias blpair='bluetoothctl pair'
 alias blconnect='bluetoothctl connect'
 alias bldisconnect='bluetoothctl disconnect'
@@ -60,6 +78,15 @@ alias piobuild='pio run --target build --environment'
 alias pioupload='pio run --target upload --environment'
 alias piomonitor='pio run --target monitor --environment'
 
+# NetworkManager CLI shortcuts
+
+alias nmlist='nmcli device wifi list'
+alias nmconnect='nmcli d w c'
+
+
+# Github aliases
+alias quickpush='git add . && git commit -m "quick push" && git push'
+
 # neofetch
 alias nf='neofetch'
 # Alias to run pyfda with legible text
@@ -70,22 +97,5 @@ alias nf='neofetch'
 #	plasma-apply-colorscheme SweetAmbarBlue;
 #}
 alias pf='pfetch'
-# PROMTP configuration
-#PROMPT="" # some white-ish arrows and brackets
-PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'"[""%f" # some white-ish arrows and brackets
-PROMPT+="%F{#11d116}%n%f" # green username
-PROMPT+="%F{#ffffff}@%f" # white asterisk
-PROMPT+="%F{#33aadd}${${(%):-%m}}%f"  # Arch-blue lue host name
-PROMPT+="%F{#d0d0d0}""]""%f"
-PROMPT+=" "
-PROMPT+="%F{#ffa009}%d %f" # Yellow working directory
-# PROMPT+="%F{red}"$'\U0d9e'"%f" # red AMOGUS
-PROMPT+=$' '
-
-PROMPT+=$'\n'
-
-PROMPT+="%F{#d0d0d0}"
-PROMPT+=$'\U2514'$'\U2500'">"
-PROMPT+="%f "
 
 export PATH=$PATH:$HOME/.local/bin
