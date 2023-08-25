@@ -85,7 +85,7 @@ alias nmconnect='nmcli d w c'
 
 
 # Github aliases
-alias quickpush='git add . && git commit -m "quick push" && git push'
+alias quickpush='git add . && git status && git commit -m "quick push" && git push'
 
 # neofetch
 alias nf='neofetch'
