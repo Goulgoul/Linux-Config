@@ -55,7 +55,7 @@ alias yayclean='yay -R $(yay -Qdtq)'
 alias grep='grep --line-number --color'
 alias ls='ls -lash --color'
 alias ip='ip --color'
-
+alias cp='cp -r -v'
 # aeroplane mode aliases
 alias takeoff='rfkill block all'
 alias land='rfkill unblock all'
