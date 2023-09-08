@@ -79,10 +79,12 @@ alias pioupload='pio run --target upload --environment'
 alias piomonitor='pio run --target monitor --environment'
 
 # NetworkManager CLI shortcuts
-
-alias nmlist='nmcli device wifi list'
+alias nmlist='nmcli d w l'
+alias nmscan='nmcli d w l --rescan yes'
 alias nmconnect='nmcli d w c'
 
+# NMap shortcuts
+alias nmap='nmap -v'
 
 # Github aliases
 alias quickpush='git add . && git status && git commit -m "quick push" && git push'
@@ -97,5 +99,6 @@ alias nf='neofetch'
 #	plasma-apply-colorscheme SweetAmbarBlue;
 #}
 alias pf='pfetch'
+
 
 export PATH=$PATH:$HOME/.local/bin
