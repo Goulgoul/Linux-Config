@@ -1,0 +1,6 @@
+2023-09-08 10:12:28.404 [info] Extension host with pid 1739 started
+2023-09-08 10:12:28.404 [info] Skipping acquiring lock for /home/mouss/.config/VSCodium/User/workspaceStorage/b3eecad965e220d530861aff7d13bca6.
+2023-09-08 10:12:28.443 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2023-09-08 10:12:28.489 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-08 10:12:28.494 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-08 10:12:28.495 [info] Extension host with pid 1739 exiting with code 0

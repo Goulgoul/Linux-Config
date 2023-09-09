@@ -1,0 +1,47 @@
+2023-09-07 11:31:49.997 [info] Getting Manifest... ms-python.vscode-pylance
+2023-09-07 11:31:50.106 [info] Installing extension: ms-python.vscode-pylance
+2023-09-07 11:31:50.755 [info] Getting Manifest... ms-python.python
+2023-09-07 11:31:52.740 [info] Extension signature verification is not done: ms-python.vscode-pylance
+2023-09-07 11:31:58.604 [info] Extracted extension to file:///home/mouss/.vscode-oss/extensions/ms-python.vscode-pylance-2023.9.10: ms-python.vscode-pylance
+2023-09-07 11:31:58.618 [info] Renamed to /home/mouss/.vscode-oss/extensions/ms-python.vscode-pylance-2023.9.10
+2023-09-07 11:31:58.621 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-09-07 11:31:58.636 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-09-07 11:31:58.644 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.8.50
+2023-09-07 11:46:07.962 [info] Getting Manifest... kevinrose.vsc-python-indent
+2023-09-07 11:46:07.974 [info] Installing extension: kevinrose.vsc-python-indent
+2023-09-07 11:46:08.819 [info] Extension signature verification is not done: kevinrose.vsc-python-indent
+2023-09-07 11:46:08.883 [info] Extracted extension to file:///home/mouss/.vscode-oss/extensions/kevinrose.vsc-python-indent-1.18.0: kevinrose.vsc-python-indent
+2023-09-07 11:46:08.887 [info] Renamed to /home/mouss/.vscode-oss/extensions/kevinrose.vsc-python-indent-1.18.0
+2023-09-07 11:46:08.890 [info] Extracting extension completed. kevinrose.vsc-python-indent
+2023-09-07 11:46:08.903 [info] Extension installed successfully: kevinrose.vsc-python-indent
+2023-09-07 11:46:43.915 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-09-07 11:46:43.930 [info] Installing extension: visualstudioexptteam.vscodeintellicode
+2023-09-07 11:46:44.239 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-09-07 11:46:44.434 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples visualstudioexptteam.vscodeintellicode
+2023-09-07 11:46:45.394 [info] Extension signature verification is not done: visualstudioexptteam.intellicode-api-usage-examples
+2023-09-07 11:46:45.659 [info] Extracted extension to file:///home/mouss/.vscode-oss/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.8: visualstudioexptteam.intellicode-api-usage-examples
+2023-09-07 11:46:45.664 [info] Renamed to /home/mouss/.vscode-oss/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.8
+2023-09-07 11:46:45.668 [info] Extracting extension completed. visualstudioexptteam.intellicode-api-usage-examples
+2023-09-07 11:46:55.858 [info] Extension signature verification is not done: visualstudioexptteam.vscodeintellicode
+2023-09-07 11:46:58.246 [info] Extracted extension to file:///home/mouss/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.30: visualstudioexptteam.vscodeintellicode
+2023-09-07 11:46:58.252 [info] Renamed to /home/mouss/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.30
+2023-09-07 11:46:58.254 [info] Extracting extension completed. visualstudioexptteam.vscodeintellicode
+2023-09-07 11:46:58.266 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2023-09-07 11:46:58.267 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2023-09-07 11:47:45.224 [info] Uninstalling extension from the profile: kevinrose.vsc-python-indent@1.18.0 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:47:45.317 [info] Marked extension as uninstalled kevinrose.vsc-python-indent-1.18.0
+2023-09-07 11:47:45.531 [info] Successfully uninstalled extension from the profile kevinrose.vsc-python-indent@1.18.0 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:48:51.339 [info] Uninstalling extension from the profile: reditorsupport.r@2.8.1 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:48:51.403 [info] Marked extension as uninstalled reditorsupport.r-2.8.1
+2023-09-07 11:48:51.578 [info] Successfully uninstalled extension from the profile reditorsupport.r@2.8.1 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:48:53.337 [info] Uninstalling extension from the profile: rdebugger.r-debugger@0.5.4 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:48:53.427 [info] Marked extension as uninstalled rdebugger.r-debugger-0.5.4
+2023-09-07 11:48:53.728 [info] Successfully uninstalled extension from the profile rdebugger.r-debugger@0.5.4 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:48:55.729 [info] Uninstalling extension from the profile: mikhail-arkhipov.r@0.0.31 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:48:55.813 [info] Marked extension as uninstalled mikhail-arkhipov.r-0.0.31
+2023-09-07 11:48:55.981 [info] Successfully uninstalled extension from the profile mikhail-arkhipov.r@0.0.31 vscode-userdata:/home/mouss/.vscode-oss/extensions/extensions.json
+2023-09-07 11:49:11.780 [info] Getting Manifest... kevinrose.vsc-python-indent
+2023-09-07 11:49:11.807 [info] Installing extension: kevinrose.vsc-python-indent
+2023-09-07 11:49:12.292 [info] Extension signature verification is not done: kevinrose.vsc-python-indent
+2023-09-07 11:49:12.298 [info] Removed the extension from uninstalled list: kevinrose.vsc-python-indent
+2023-09-07 11:49:12.357 [info] Extension installed successfully: kevinrose.vsc-python-indent

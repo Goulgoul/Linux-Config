@@ -1,0 +1,26 @@
+{
+  "loadedMods": {},
+  "modData": {
+    "Hallownest Vocalized": {
+      "GhostRelics": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "UsedRelicBox": false,
+      "RelicBoxConvo": false,
+      "LurkerFlower": false,
+      "LurkerConversation": -1,
+      "OrdealFails": 0,
+      "Precepts": 1,
+      "FinshedOrdealLines": [],
+      "GrubConvo": -1,
+      "FinishedConvos": [],
+      "PersistentVoiceActors": {
+        "GG_False_Knight:False Knight New/Battle Scene": 1
+      }
+    },
+    "SFCore": {}
+  }
+}

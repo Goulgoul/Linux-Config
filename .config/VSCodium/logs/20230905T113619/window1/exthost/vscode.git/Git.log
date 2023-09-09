@@ -1,0 +1,17 @@
+2023-09-05 11:36:26.795 [info] Log level: Info
+2023-09-05 11:36:26.795 [info] Validating found git in: "git"
+2023-09-05 11:36:26.795 [info] Using git "2.42.0" from "git"
+2023-09-05 11:36:26.795 [info] > git rev-parse --show-toplevel [379ms]
+2023-09-05 11:36:26.798 [info] > git rev-parse --show-toplevel [4ms]
+2023-09-05 11:36:26.822 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-05 11:36:26.850 [info] > git rev-parse --show-toplevel [4ms]
+2023-09-05 11:36:42.617 [info] > git rev-parse --show-toplevel [5ms]
+2023-09-05 11:36:42.672 [info] > git rev-parse --git-dir --git-common-dir [23ms]
+2023-09-05 11:36:42.699 [info] Open repository: /home/mouss/Documents/Cours/5A GPSE - MSc IoT
+2023-09-05 11:36:42.730 [info] > git config --get commit.template [8ms]
+2023-09-05 11:36:42.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-09-05 11:36:42.782 [info] > git status -z -uall [4ms]
+2023-09-05 11:36:42.837 [info] > git config --get commit.template [9ms]
+2023-09-05 11:36:42.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-05 11:36:42.887 [info] > git status -z -uall [5ms]
+2023-09-05 11:36:43.256 [info] > git check-ignore -v -z --stdin [4ms]

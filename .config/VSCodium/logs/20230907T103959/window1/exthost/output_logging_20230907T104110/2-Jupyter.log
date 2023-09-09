@@ -1,0 +1,226 @@
+VSCodium (1.81.1, undefined, desktop)
+Jupyter Extension Version: 2023.7.1002162226.
+Python Extension Version: 2023.14.0.
+Platform: linux (x64).
+Workspace folder ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques, Home = /home/mouss
+10:41:12.183 [info] Telemetry level is off
+10:41:12.184 [info] Experiments are disabled, only manually opted experiments are active.
+10:41:13.259 [info] Start refreshing Interpreter Kernel Picker (1694076073259)
+10:41:13.278 [info] Using Pylance
+10:41:17.063 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.5) for '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb' (disableUI=true)
+10:41:17.154 [info] Dispose Kernel '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb' associated with '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb'
+10:41:17.162 [info] Dispose Kernel process undefined.
+10:41:17.164 [error] Kernel Launcher. launch, Class name = Ky, completed in 58ms, has a falsy return value, Arg 1: ".jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb", Arg 4: "~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques", Arg 5: "" [Canceled: Canceled
+	at e.throwIfCanceled (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:2:1745170)
+	at Ky.launchProcess (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:101971)
+	at async ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:100416]
+10:41:17.527 [warn] Failed to get activated env vars for /bin/python in 420ms
+10:41:17.541 [warn] Failed to get activated env vars for /bin/python in 1562ms
+10:41:17.578 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+10:41:17.708 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:41:17.738 [info] Process Execution: /bin/python -m pip list
+10:41:19.702 [info] End refreshing Interpreter Kernel Picker (1694076073259)
+10:41:49.147 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:41:49.150 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.5) for '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb' (disableUI=true)
+10:41:49.238 [warn] Failed to get activated env vars for /bin/python in 79ms
+10:41:49.264 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:41:49.290 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9011 --control=9009 --hb=9008 --Session.signature_scheme="hmac-sha256" --Session.key=b"e4f01c3b-61df-4cfe-92c3-4af45b9ba9c0" --shell=9010 --transport="tcp" --iopub=9012 --f=~/.local/share/jupyter/runtime/kernel-v2-144745OGheb28UHtcw.json
+    > cwd: ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques
+10:41:49.821 [info] ipykernel version & path 6.23.1, ~/.local/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+10:41:50.608 [warn] StdErr from Kernel Process 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10:41:50.969 [info] Started Kernel Python 3.11.5 (pid: 145201)
+10:41:50.970 [info] Started new session a2826b5a-9068-4c1d-b513-ce5b6eb45aab
+10:41:51.072 [info] Process Execution: /bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/pythonFiles/printJupyterDataDir.py
+10:41:51.097 [info] Kernel acknowledged execution of cell 1 @ 1694076111081
+10:41:51.387 [info] End cell 1 execution @ 1694076111381, started @ 1694076111081, elapsed time = 0.3s
+10:42:02.176 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:42:02.190 [info] Kernel acknowledged execution of cell 1 @ 1694076122182
+10:42:02.196 [info] End cell 1 execution @ 1694076122189, started @ 1694076122182, elapsed time = 0.007s
+10:44:12.267 [info] Handle Execution of Cells 3 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:44:12.281 [info] Kernel acknowledged execution of cell 3 @ 1694076252274
+10:44:12.716 [info] End cell 3 execution @ 1694076252709, started @ 1694076252274, elapsed time = 0.435s
+10:44:12.716 [warn] Cancel all remaining cells due to cancellation or failure in execution
+10:44:17.076 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:44:17.088 [info] Kernel acknowledged execution of cell 1 @ 1694076257082
+10:44:17.094 [info] End cell 1 execution @ 1694076257088, started @ 1694076257082, elapsed time = 0.006s
+10:44:24.949 [info] Handle Execution of Cells 3 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:44:24.966 [info] Kernel acknowledged execution of cell 3 @ 1694076264955
+10:44:24.973 [info] End cell 3 execution @ 1694076264966, started @ 1694076264955, elapsed time = 0.011s
+10:44:57.303 [info] Handle Execution of Cells 3 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:44:57.321 [info] Kernel acknowledged execution of cell 3 @ 1694076297309
+10:44:57.327 [info] End cell 3 execution @ 1694076297319, started @ 1694076297309, elapsed time = 0.01s
+10:45:45.930 [info] Handle Execution of Cells 4 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:45:45.943 [info] Kernel acknowledged execution of cell 4 @ 1694076345935
+10:45:45.950 [info] End cell 4 execution @ 1694076345943, started @ 1694076345935, elapsed time = 0.008s
+10:45:48.581 [info] Handle Execution of Cells 4 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:45:48.594 [info] Kernel acknowledged execution of cell 4 @ 1694076348586
+10:45:48.603 [info] End cell 4 execution @ 1694076348597, started @ 1694076348586, elapsed time = 0.011s
+10:47:14.431 [info] Handle Execution of Cells 5 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:47:14.443 [info] Kernel acknowledged execution of cell 5 @ 1694076434437
+10:47:14.451 [info] End cell 5 execution @ 1694076434444, started @ 1694076434437, elapsed time = 0.007s
+10:47:34.060 [info] Handle Execution of Cells 6 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:47:34.071 [info] Kernel acknowledged execution of cell 6 @ 1694076454066
+10:47:34.080 [info] End cell 6 execution @ 1694076454073, started @ 1694076454066, elapsed time = 0.007s
+10:47:49.710 [info] Handle Execution of Cells 6 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:47:49.722 [info] Kernel acknowledged execution of cell 6 @ 1694076469715
+10:47:49.737 [info] End cell 6 execution @ 1694076469725, started @ 1694076469715, elapsed time = 0.01s
+10:47:53.929 [info] Handle Execution of Cells 6 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:47:53.943 [info] Kernel acknowledged execution of cell 6 @ 1694076473935
+10:47:53.949 [info] End cell 6 execution @ 1694076473943, started @ 1694076473935, elapsed time = 0.008s
+10:48:22.754 [info] Handle Execution of Cells 7 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:48:22.767 [info] Kernel acknowledged execution of cell 7 @ 1694076502759
+10:48:22.773 [info] End cell 7 execution @ 1694076502766, started @ 1694076502759, elapsed time = 0.007s
+10:49:34.782 [info] Handle Execution of Cells 7 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:49:34.797 [info] Kernel acknowledged execution of cell 7 @ 1694076574788
+10:49:34.805 [info] End cell 7 execution @ 1694076574798, started @ 1694076574788, elapsed time = 0.01s
+10:50:01.649 [info] Handle Execution of Cells 8 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:50:01.663 [info] Kernel acknowledged execution of cell 8 @ 1694076601655
+10:50:01.672 [info] End cell 8 execution @ 1694076601663, started @ 1694076601655, elapsed time = 0.008s
+10:50:07.573 [info] Handle Execution of Cells 8 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:50:07.589 [info] Kernel acknowledged execution of cell 8 @ 1694076607579
+10:50:07.595 [info] End cell 8 execution @ 1694076607589, started @ 1694076607579, elapsed time = 0.01s
+10:50:25.326 [info] Handle Execution of Cells 8 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:50:25.340 [info] Kernel acknowledged execution of cell 8 @ 1694076625332
+10:50:25.348 [info] End cell 8 execution @ 1694076625341, started @ 1694076625332, elapsed time = 0.009s
+10:50:32.648 [info] Handle Execution of Cells 8 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:50:32.663 [info] Kernel acknowledged execution of cell 8 @ 1694076632653
+10:50:32.670 [info] End cell 8 execution @ 1694076632663, started @ 1694076632653, elapsed time = 0.01s
+10:51:21.917 [info] Handle Execution of Cells 9 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:51:21.925 [info] Kernel acknowledged execution of cell 9 @ 1694076681922
+10:51:21.938 [info] End cell 9 execution @ 1694076681932, started @ 1694076681922, elapsed time = 0.01s
+10:51:30.592 [info] Handle Execution of Cells 9 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:51:30.604 [info] Kernel acknowledged execution of cell 9 @ 1694076690596
+10:51:30.610 [info] End cell 9 execution @ 1694076690604, started @ 1694076690596, elapsed time = 0.008s
+10:52:50.332 [info] Handle Execution of Cells 9 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:52:50.345 [info] Kernel acknowledged execution of cell 9 @ 1694076770337
+10:52:50.354 [info] End cell 9 execution @ 1694076770345, started @ 1694076770337, elapsed time = 0.008s
+10:53:01.751 [info] Handle Execution of Cells 9 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:53:01.765 [info] Kernel acknowledged execution of cell 9 @ 1694076781757
+10:53:01.775 [info] End cell 9 execution @ 1694076781766, started @ 1694076781757, elapsed time = 0.009s
+10:53:14.404 [info] Handle Execution of Cells 9 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:53:14.418 [info] Kernel acknowledged execution of cell 9 @ 1694076794409
+10:53:14.426 [info] End cell 9 execution @ 1694076794419, started @ 1694076794409, elapsed time = 0.01s
+10:53:25.567 [info] Handle Execution of Cells 9 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:53:25.585 [info] Kernel acknowledged execution of cell 9 @ 1694076805571
+10:53:25.768 [info] End cell 9 execution @ 1694076805761, started @ 1694076805571, elapsed time = 0.19s
+10:53:25.768 [warn] Cancel all remaining cells due to cancellation or failure in execution
+10:54:22.116 [info] Handle Execution of Cells 9 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:54:22.132 [info] Kernel acknowledged execution of cell 9 @ 1694076862121
+10:54:22.139 [info] End cell 9 execution @ 1694076862133, started @ 1694076862121, elapsed time = 0.012s
+10:54:39.900 [info] Handle Execution of Cells 10 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:54:39.915 [info] Kernel acknowledged execution of cell 10 @ 1694076879905
+10:54:39.921 [info] End cell 10 execution @ 1694076879916, started @ 1694076879905, elapsed time = 0.011s
+10:54:54.300 [info] Handle Execution of Cells 10 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+10:54:54.308 [info] Kernel acknowledged execution of cell 10 @ 1694076894305
+10:54:54.319 [info] End cell 10 execution @ 1694076894314, started @ 1694076894305, elapsed time = 0.009s
+11:05:24.105 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:05:24.129 [info] Kernel acknowledged execution of cell 11 @ 1694077524110
+11:05:24.152 [info] End cell 11 execution @ 1694077524146, started @ 1694077524110, elapsed time = 0.036s
+11:05:24.152 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:05:49.299 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:05:49.339 [info] Kernel acknowledged execution of cell 11 @ 1694077549305
+11:05:49.348 [info] End cell 11 execution @ 1694077549341, started @ 1694077549305, elapsed time = 0.036s
+11:05:49.349 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:06:12.378 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:06:12.397 [info] Kernel acknowledged execution of cell 11 @ 1694077572383
+11:06:12.423 [info] End cell 11 execution @ 1694077572418, started @ 1694077572383, elapsed time = 0.035s
+11:06:12.424 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:06:22.823 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:06:22.835 [info] Kernel acknowledged execution of cell 11 @ 1694077582828
+11:06:22.841 [info] End cell 11 execution @ 1694077582834, started @ 1694077582828, elapsed time = 0.006s
+11:06:32.435 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:06:32.444 [info] Kernel acknowledged execution of cell 11 @ 1694077592441
+11:06:32.485 [info] End cell 11 execution @ 1694077592480, started @ 1694077592441, elapsed time = 0.039s
+11:06:32.485 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:06:49.956 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:06:49.971 [info] Kernel acknowledged execution of cell 11 @ 1694077609962
+11:06:50.004 [info] End cell 11 execution @ 1694077609998, started @ 1694077609962, elapsed time = 0.036s
+11:06:50.004 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:07:22.451 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:07:22.466 [info] Kernel acknowledged execution of cell 11 @ 1694077642457
+11:07:22.504 [info] End cell 11 execution @ 1694077642499, started @ 1694077642457, elapsed time = 0.042s
+11:07:22.504 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:07:26.072 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:07:26.089 [info] Kernel acknowledged execution of cell 11 @ 1694077646077
+11:07:26.119 [info] End cell 11 execution @ 1694077646112, started @ 1694077646077, elapsed time = 0.035s
+11:07:26.119 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:07:42.665 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:07:42.679 [info] Kernel acknowledged execution of cell 11 @ 1694077662670
+11:07:42.713 [info] End cell 11 execution @ 1694077662708, started @ 1694077662670, elapsed time = 0.038s
+11:07:42.713 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:07:56.602 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:07:56.615 [info] Kernel acknowledged execution of cell 11 @ 1694077676606
+11:07:56.641 [info] End cell 11 execution @ 1694077676637, started @ 1694077676606, elapsed time = 0.031s
+11:07:56.641 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:08:19.114 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:08:19.135 [info] Kernel acknowledged execution of cell 11 @ 1694077699118
+11:08:19.164 [info] End cell 11 execution @ 1694077699159, started @ 1694077699118, elapsed time = 0.041s
+11:08:19.164 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:08:34.148 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:08:34.159 [info] Kernel acknowledged execution of cell 11 @ 1694077714152
+11:08:34.167 [info] End cell 11 execution @ 1694077714160, started @ 1694077714152, elapsed time = 0.008s
+11:09:03.140 [info] Handle Execution of Cells 11 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:09:03.153 [info] Kernel acknowledged execution of cell 11 @ 1694077743145
+11:09:03.161 [info] End cell 11 execution @ 1694077743155, started @ 1694077743145, elapsed time = 0.01s
+11:09:52.259 [info] Handle Execution of Cells 12 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:09:52.271 [info] Kernel acknowledged execution of cell 12 @ 1694077792263
+11:09:52.278 [info] End cell 12 execution @ 1694077792272, started @ 1694077792263, elapsed time = 0.009s
+11:15:40.391 [info] Handle Execution of Cells 12 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:15:40.411 [info] Kernel acknowledged execution of cell 12 @ 1694078140396
+11:15:40.445 [info] End cell 12 execution @ 1694078140440, started @ 1694078140396, elapsed time = 0.044s
+11:15:40.446 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:16:03.816 [info] Handle Execution of Cells 10 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:16:03.828 [info] Kernel acknowledged execution of cell 10 @ 1694078163821
+11:16:03.835 [info] End cell 10 execution @ 1694078163829, started @ 1694078163821, elapsed time = 0.008s
+11:16:07.185 [info] Handle Execution of Cells 12 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:16:07.198 [info] Kernel acknowledged execution of cell 12 @ 1694078167189
+11:16:07.205 [info] End cell 12 execution @ 1694078167199, started @ 1694078167189, elapsed time = 0.01s
+11:25:09.150 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:25:09.161 [info] Kernel acknowledged execution of cell 14 @ 1694078709155
+11:25:09.173 [info] End cell 14 execution @ 1694078709167, started @ 1694078709155, elapsed time = 0.012s
+11:25:09.173 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:25:12.557 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:25:12.569 [info] Kernel acknowledged execution of cell 14 @ 1694078712561
+11:25:12.577 [info] End cell 14 execution @ 1694078712570, started @ 1694078712561, elapsed time = 0.009s
+11:25:17.516 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:25:17.529 [info] Kernel acknowledged execution of cell 14 @ 1694078717521
+11:25:17.535 [info] End cell 14 execution @ 1694078717529, started @ 1694078717521, elapsed time = 0.008s
+11:25:51.256 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:25:51.268 [info] Kernel acknowledged execution of cell 14 @ 1694078751260
+11:25:51.274 [info] End cell 14 execution @ 1694078751269, started @ 1694078751260, elapsed time = 0.009s
+11:26:48.527 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:26:48.546 [info] Kernel acknowledged execution of cell 14 @ 1694078808531
+11:26:48.630 [info] End cell 14 execution @ 1694078808624, started @ 1694078808531, elapsed time = 0.093s
+11:26:48.631 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:26:54.199 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:26:54.212 [info] Kernel acknowledged execution of cell 14 @ 1694078814203
+11:26:54.267 [info] End cell 14 execution @ 1694078814261, started @ 1694078814203, elapsed time = 0.058s
+11:26:54.268 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:27:05.379 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:27:05.391 [info] Kernel acknowledged execution of cell 14 @ 1694078825384
+11:27:05.400 [info] End cell 14 execution @ 1694078825394, started @ 1694078825384, elapsed time = 0.01s
+11:27:05.401 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:29:18.221 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:29:18.231 [info] Kernel acknowledged execution of cell 14 @ 1694078958225
+11:29:18.235 [info] End cell 14 execution @ 1694078958231, started @ 1694078958225, elapsed time = 0.006s
+11:30:35.296 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:30:35.306 [info] Kernel acknowledged execution of cell 14 @ 1694079035299
+11:30:35.325 [info] End cell 14 execution @ 1694079035322, started @ 1694079035299, elapsed time = 0.023s
+11:30:35.325 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:30:50.444 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:30:50.455 [info] Kernel acknowledged execution of cell 14 @ 1694079050447
+11:30:50.477 [info] End cell 14 execution @ 1694079050473, started @ 1694079050447, elapsed time = 0.026s
+11:30:50.477 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:30:55.789 [info] Handle Execution of Cells 14 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb
+11:30:55.798 [info] Kernel acknowledged execution of cell 14 @ 1694079055792
+11:30:55.802 [info] End cell 14 execution @ 1694079055799, started @ 1694079055792, elapsed time = 0.007s
+11:31:20.087 [info] Dispose Kernel '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb' associated with '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb'
+11:31:20.089 [info] Dispose Kernel process 145201.
+11:31:40.929 [info] Disposing HostJupyterExecution
+11:31:40.929 [info] Shutting down notebooks for 4e62bb41-be32-464b-812e-d0da958d57cd
+11:31:40.930 [info] Dispose Kernel '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb' associated with '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb'
+11:31:40.930 [info] Dispose Kernel '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb' associated with '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/TP1.ipynb'
+11:31:40.931 [info] Disposing HostJupyterExecution

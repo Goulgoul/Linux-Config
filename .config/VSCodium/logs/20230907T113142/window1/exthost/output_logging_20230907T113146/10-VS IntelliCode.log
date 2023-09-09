@@ -1,0 +1,11 @@
+Language server is set to "Default". Pylance is used as current language server.
+Acquiring model
+vs-intellicode-python was passed a model: {}.
+Acquiring model 'intellisense-members-lstm-pylance' for python
+Querying IntelliCode service for available models.
+Cached model is up to date.
+Activating Python extension
+Language server extension command failed. Exception: Error: command 'python.intellicode.loadLanguageServerExtension' not found
+    at w._tryExecuteCommand (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1516:16033)
+    at w.executeCommand (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1516:15915)
+Error while activating Python: {}

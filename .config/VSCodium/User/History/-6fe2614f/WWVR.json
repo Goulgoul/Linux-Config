@@ -1,0 +1,12 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabCompletion": "on",
+    "editor.detectIndentation": false,
+    "workbench.colorTheme": "Default Light Modern",
+    "editor.mouseWheelZoom": true,
+    "git.openRepositoryInParentFolders": "always",
+    "files.associations": {
+        "*.rmd": "markdown"
+    }
+}

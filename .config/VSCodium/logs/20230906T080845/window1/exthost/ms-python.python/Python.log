@@ -1,0 +1,22 @@
+2023-09-06 08:08:50.006 [info] Telemetry level is off
+2023-09-06 08:08:50.006 [info] Experiments are disabled, only manually opted experiments are active.
+2023-09-06 08:08:50.006 [info] Test server listening.
+2023-09-06 08:08:50.006 [info] > conda info --json
+2023-09-06 08:08:50.006 [info] Python interpreter path: /bin/python
+2023-09-06 08:08:50.085 [info] Found: /bin/python --> /bin/python3.11
+2023-09-06 08:08:50.124 [info] Found: /bin/python3 --> /bin/python3.11
+2023-09-06 08:08:50.143 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-09-06 08:08:50.188 [info] Found: /sbin/python --> /sbin/python3.11
+2023-09-06 08:08:50.189 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-09-06 08:08:50.189 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-09-06 08:08:50.201 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-09-06 08:08:50.202 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-09-06 08:08:50.202 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-09-06 08:08:50.311 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-09-06 08:08:50.312 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-09-06 08:08:50.312 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-09-06 08:08:50.353 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-09-06 08:08:50.379 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-09-06 08:08:50.483 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-09-06 08:08:50.503 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-09-06 08:08:50.643 [info] Starting Pylance language server.

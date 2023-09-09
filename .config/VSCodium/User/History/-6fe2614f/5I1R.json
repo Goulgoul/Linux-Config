@@ -1,0 +1,17 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabCompletion": "on",
+    "editor.detectIndentation": false,
+    "editor.mouseWheelZoom": true,
+    "git.openRepositoryInParentFolders": "always",
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Default Light Modern"
+}

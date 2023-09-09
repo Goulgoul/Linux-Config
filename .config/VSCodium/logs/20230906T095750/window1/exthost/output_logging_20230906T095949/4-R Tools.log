@@ -1,0 +1,2 @@
+[Error - 10:00:37] R Tools client: couldn't create connection to server.
+Launching server using command dotnet failed. Error: spawn dotnet ENOENT

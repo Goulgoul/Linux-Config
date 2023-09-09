@@ -1,0 +1,56 @@
+VSCodium (1.81.1, undefined, desktop)
+Jupyter Extension Version: 2023.7.1002162226.
+Python Extension Version: 2023.14.0.
+Platform: linux (x64).
+Workspace folder ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques, Home = /home/mouss
+11:38:11.087 [info] Telemetry level is off
+11:38:11.088 [info] Experiments are disabled, only manually opted experiments are active.
+11:38:11.933 [info] Start refreshing Interpreter Kernel Picker (1693906691933)
+11:38:11.949 [info] Using Pylance
+11:38:15.150 [warn] Failed to get activated env vars for /bin/python in 1919ms
+11:38:15.180 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+11:38:15.240 [info] Process Execution: /bin/python -m pip list
+11:38:15.482 [info] End refreshing Interpreter Kernel Picker (1693906691933)
+11:38:26.357 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.5) for '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb' (disableUI=true)
+11:38:26.429 [warn] Failed to get activated env vars for /bin/python in 66ms
+11:38:26.451 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:38:26.474 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"f8c1f259-36aa-48d9-a00e-ca88e057ca66" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-68679NVcJQWX7y9x1.json
+    > cwd: ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques
+11:38:27.149 [info] ipykernel version & path 6.23.1, ~/.local/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+11:38:28.068 [warn] StdErr from Kernel Process 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+11:38:28.426 [info] Started Kernel Python 3.11.5 (pid: 68889)
+11:38:28.426 [info] Started new session 49c440eb-759d-4c1b-a888-0cbe5bcbc3ad
+11:38:28.516 [info] Process Execution: /bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/pythonFiles/printJupyterDataDir.py
+11:38:30.106 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb
+11:38:30.127 [info] Kernel acknowledged execution of cell 1 @ 1693906710118
+11:38:30.139 [info] End cell 1 execution @ 1693906710129, started @ 1693906710118, elapsed time = 0.011s
+11:38:30.139 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:40:15.628 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb
+11:40:15.644 [info] Kernel acknowledged execution of cell 1 @ 1693906815635
+11:40:19.035 [info] End cell 1 execution @ 1693906819029, started @ 1693906815635, elapsed time = 3.394s
+11:40:19.036 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:41:14.242 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb
+11:41:14.253 [info] Kernel acknowledged execution of cell 1 @ 1693906874248
+11:41:14.263 [info] End cell 1 execution @ 1693906874257, started @ 1693906874248, elapsed time = 0.009s
+11:41:14.264 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:41:21.205 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb
+11:41:21.218 [info] Kernel acknowledged execution of cell 1 @ 1693906881211
+11:41:22.830 [info] End cell 1 execution @ 1693906882826, started @ 1693906881211, elapsed time = 1.615s
+11:41:22.830 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:41:38.468 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb
+11:41:38.481 [info] Kernel acknowledged execution of cell 1 @ 1693906898473
+11:41:39.937 [info] End cell 1 execution @ 1693906899933, started @ 1693906898473, elapsed time = 1.46s
+11:42:13.548 [info] Handle Execution of Cells 1 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb
+11:42:13.559 [info] Kernel acknowledged execution of cell 1 @ 1693906933553
+11:42:14.879 [info] End cell 1 execution @ 1693906934874, started @ 1693906933553, elapsed time = 1.321s
+11:45:45.669 [info] Handle Execution of Cells 2 for ~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb
+11:45:45.677 [info] Kernel acknowledged execution of cell 2 @ 1693907145674
+11:45:45.691 [info] End cell 2 execution @ 1693907145683, started @ 1693907145674, elapsed time = 0.009s
+11:46:59.489 [info] Disposing HostJupyterExecution
+11:46:59.490 [info] Shutting down notebooks for 1119f3bb-2944-497f-a2fd-f2bd6e3fc0f5
+11:46:59.494 [info] Dispose Kernel '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb' associated with '~/Documents/Cours/5A GPSE - MSc IoT/Mathématiques/Intro.ipynb'
+11:46:59.501 [info] Dispose Kernel process 68889.
+11:46:59.556 [info] Disposing HostJupyterExecution

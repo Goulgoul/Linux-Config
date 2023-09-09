@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "window.menuBarVisibility": "toggle",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabCompletion": "on",
+    "editor.detectIndentation": false
+}
