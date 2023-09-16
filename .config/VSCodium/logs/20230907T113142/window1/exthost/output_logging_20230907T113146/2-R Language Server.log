@@ -1,5 +1,0 @@
-R Language Server (162837) started
-R Language Server (162837) exited from signal SIGKILL
-[Error - 11:47:47] Stopping server failed
-  Message: write EPIPE
-  Code: -32099 
