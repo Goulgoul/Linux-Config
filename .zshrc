@@ -73,6 +73,7 @@ alias bllist='bluetoothctl devices'
 alias blpair='bluetoothctl pair'
 alias blconnect='bluetoothctl connect'
 alias bldisconnect='bluetoothctl disconnect'
+alias 'blscan'='bluetoothctl scan on'
 
 # power management aliases
 alias shu='poweroff'
