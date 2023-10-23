@@ -87,13 +87,11 @@ alias piomonitor='pio run --target monitor --environment'
 
 # NetworkManager CLI shortcuts
 alias nmlist='nmcli d w l'
-alias nmscan='nmcli d w l --rescan yes'
+alias nmrescan='nmcli d w l --rescan yes'
 alias nmconnect='nmcli d w c'
 
 
 
-# NMap shortcuts
-alias nmap='nmap -v'
 
 # Docker initialisation script
 alias dockerstart='sudo ~/.docker_start.sh'
