@@ -35,6 +35,7 @@ alias yayclean='yay -R $(yay -Qdtq)'
 alias grep='grep --line-number --color'
 alias ls='\ls --color'
 alias fls='ls -lah --color'
+alias mkdir='mkdir -p'
 mkcd () {
   mkdir "$1" && cd "$1"
 }
@@ -48,7 +49,7 @@ alias land='rfkill unblock all'
 # bluetooth aliases
 alias blon='bluetoothctl power on'
 alias bloff='bluetoothctl power off'
-alias bllist='bluetoothctl devices'
+alias bldevices='bluetoothctl devices'
 alias blpair='bluetoothctl pair'
 alias blconnect='bluetoothctl connect'
 alias bldisconnect='bluetoothctl disconnect'
@@ -62,7 +63,7 @@ alias acf='auto-cpufreq'
 # PlatformIO aliases
 alias piobuild='pio run --target build --environment'
 alias pioupload='pio run --target upload --environment'
-alias piomonitor='pio run --target monitor --environment'
+alias piomonitor='pio ps aux | grep -v grep | grep -i -e VSZ -erun --target monitor --environment'
 
 # NetworkManager CLI shortcuts
 alias nmlist='nmcli d w l'
