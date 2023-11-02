@@ -1,5 +1,5 @@
 echo "Initialising docker, please wait..."
-echo "Creatings file /run/xtables.lock so that docker doesn't panick..."
+echo "Creating file /run/xtables.lock so that docker doesn't panick..."
 touch /run/xtables.lock
 
 echo "Starting containerd and docker"

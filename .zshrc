@@ -1,3 +1,4 @@
+# zsh config file - hard-linked to ~/git/linuxconfig to be saved online
 # PROMPT configuration
 # """
 # # PROMPT="" # some white-ish arrows and brackets
@@ -17,34 +18,9 @@
 # PROMPT+="%F{#d0d0d0}"
 # PROMPT+=$'\U2514'$'\U2500'">"
 # PROMPT+="%f "
-# # zsh config file - hard-linked to ~/git/linuxconfig to be saved online
-# """
 
-# PROMPT="" # some white-ish arrows and brackets
 PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'$'\U2500'"(""%F{#11d116}%n%F{#ffffff}@%F{#33aadd}${(%):-%m}%F{#d0d0d0})"$'\U2500'$'\U2500'"(%F{#ffa009}%d%F{#d0d0d0})"$'\n'$'\U2514'$'\U2500'"> %f"
 
-# zsh config file - hard-linked to ~/git/linuxconfig to be saved online
-
-# The following lines were added by compinstall
-
-# zstyle ':completion:*' completions 1
-# zstyle ':completion:*' glob 1
-# zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|[._-]=** r:|=**'
-# zstyle ':completion:*' max-errors 2
-# zstyle ':completion:*' substitute 1
-# zstyle :compinstall filename '/home/mouss/.zshrc'
-# autoload -Uz compinit
-# compinit
-# # End of lines added by compinstall
-# # Lines configured by zsh-newuser-install
-# HISTFILE=~/.histfile
-# HISTSIZE=1000
-# SAVEHIST=1000
-# setopt autocd extendedglob nomatch
-# unsetopt beep notify
-# bindkey -e
-#
-# End of lines configured by zsh-newuser-install
 source ~/.zsh-config
 
 # xserver related aliases
@@ -58,9 +34,11 @@ alias yayclean='yay -R $(yay -Qdtq)'
 # common commands aliases
 alias grep='grep --line-number --color'
 alias ls='ls -lah --color'
+mkcd () {
+  mkdir "$1" && cd "$1"
+}
 alias ip='ip --color'
 alias cp='cp -r -v'
-alias fuser='fuser -v'
 
 # aeroplane mode aliases
 alias takeoff='rfkill block all'
@@ -73,7 +51,7 @@ alias bllist='bluetoothctl devices'
 alias blpair='bluetoothctl pair'
 alias blconnect='bluetoothctl connect'
 alias bldisconnect='bluetoothctl disconnect'
-alias 'blscan'='bluetoothctl scan on'
+alias blscan='bluetoothctl scan on'
 
 # power management aliases
 alias shu='poweroff'
@@ -104,9 +82,9 @@ alias quickpush='git add . && git status && git commit -m "quick push" && git pu
 
 # neofetch
 alias nf='neofetch'
+# un jour je ferai marcher pyfda mais pour l'instant ça me saoule mdr
 # Alias to run pyfda with legible text
-#alias pyfda()
-#{ 
+#alias pyfda() { 
 #	plasma-apply-colorscheme BreezeLight;
 #	pyfdax;
 #	plasma-apply-colorscheme SweetAmbarBlue;
