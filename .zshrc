@@ -36,8 +36,9 @@ alias grep='grep --line-number --color'
 alias ls='\ls --color'
 alias fls='ls -lah --color'
 alias mkdir='mkdir -p'
-mkcd () {
-  mkdir "$1" && cd "$1"
+function mkcd {
+  mkdir "$1"
+  cd "$1"
 }
 alias ip='ip --color'
 alias cp='cp -r -v'
