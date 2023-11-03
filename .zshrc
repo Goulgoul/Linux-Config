@@ -19,7 +19,8 @@
 # PROMPT+=$'\U2514'$'\U2500'">"
 # PROMPT+="%f "
 
-PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'$'\U2500'"(""%F{#11d116}%n%F{#ffffff}@%F{#33aadd}${(%):-%m}%F{#d0d0d0})"$'\U2500'$'\U2500'"(%F{#ffa009}%d%F{#d0d0d0})"$'\n'$'\U2514'$'\U2500'"> %f"
+PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'$'\U2500'"(""%F{#11d116}%n%F{#ffffff}@%F{#33aadd}%m%F{#d0d0d0})"$'\U2500'$'\U2500'"(%F{#ffa009}%d%F{#d0d0d0})"$'\n'$'\U2514'$'\U2500'"> %f"
+
 
 source ~/.zsh-config
 
@@ -34,7 +35,7 @@ alias yayclean='yay -R $(yay -Qdtq)'
 # common commands aliases
 alias grep='grep --line-number --color'
 alias ls='\ls --color'
-alias fls='ls -lah --color'
+alias fls='ls -Flah --color'
 alias mkdir='mkdir -p'
 function mkcd {
   mkdir "$1"
