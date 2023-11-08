@@ -72,18 +72,23 @@ alias nmlist='nmcli d w l'
 alias nmrescan='nmcli d w l --rescan yes'
 alias nmconnect='nmcli d w c'
 
-
-
-
 # Docker initialisation script
 alias dockerstart='sudo ~/.docker_start.sh'
 alias dockerstop='sudo ~/.docker_stop.sh'
 
-
-
 # Github aliases
-alias quickpush='git add . && git status && git commit -m "quick push" && git push'
-
+function quickpush {
+  git add .
+  git status 
+  git commit -m "quick push"
+  git push
+}
+function cuickpush {
+  git add .
+  git status 
+  git commit -m $1
+  git push
+}
 # neofetch
 alias nf='neofetch'
 # un jour je ferai marcher pyfda mais pour l'instant ça me saoule mdr
