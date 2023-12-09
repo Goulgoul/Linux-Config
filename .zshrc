@@ -34,8 +34,8 @@ alias yayclean='yay -R $(yay -Qdtq)'
 
 # common commands aliases
 alias grep='grep --line-number --color'
-alias ls='\ls --color'
-alias fls='ls -Flah --color'
+alias ll='\ls --color'
+alias ls='ls -Flah --color'
 alias mkdir='mkdir -p'
 function mkcd {
   mkdir "$1"
@@ -66,11 +66,15 @@ alias acf='auto-cpufreq'
 alias piobuild='pio run --target build --environment'
 alias pioupload='pio run --target upload --environment'
 alias piomonitor='pio ps aux | grep -v grep | grep -i -e VSZ -erun --target monitor --environment'
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
 
 # NetworkManager CLI shortcuts
-alias nmlist='nmcli d w l'
-alias nmrescan='nmcli d w l --rescan yes'
-alias nmconnect='nmcli d w c'
+alias nml='nmcli d w l'
+alias nmr='nmcli d w l --rescan yes'
+alias nmc='nmcli d w c'
+
+# NMap aliases
+alias knockknock='sudo nmap -sn $(hostname -i)/24'
 
 # Docker initialisation script
 alias dockerstart='sudo ~/.docker_start.sh'
@@ -93,7 +97,7 @@ function cuickpush {
 alias nf='neofetch'
 # un jour je ferai marcher pyfda mais pour l'instant ça me saoule mdr
 # Alias to run pyfda with legible text
-#alias pyfda() { 
+#function pyfda { 
 #	plasma-apply-colorscheme BreezeLight;
 #	pyfdax;
 #	plasma-apply-colorscheme SweetAmbarBlue;
