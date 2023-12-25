@@ -34,8 +34,8 @@ alias yayclean='yay -R $(yay -Qdtq)'
 
 # common commands aliases
 alias grep='grep --line-number --color'
-alias ll='\ls --color'
-alias ls='ls -Flah --color'
+alias ls='ls --color'
+alias ll='ls -Flah'
 alias mkdir='mkdir -p'
 function mkcd {
   mkdir "$1"
