@@ -23,85 +23,9 @@ PROMPT="%F{#d0d0d0}"$'\U250c'$'\U2500'$'\U2500'"(""%F{#11d116}%n%F{#ffffff}@%F{#
 
 
 source ~/.zsh-config
+# if [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ]; then
+#     exec tmux new-session -A -s ${USER} >/dev/null 2>&1
+# fi
+source ~/.zsh-aliases
 
-# xserver related aliases
-alias hi='/home/mouss/.hi.sh'
-alias bye='(pkill -15 -f wayland || pkill -15 -f xserver) && pkill -15 -f pulseaudio && pkill -15 -f sddm'
-
-# pacman and yay related aliases
-alias pacclean='sudo pacman -R $(pacman -Qdtq)'
-alias yayclean='yay -R $(yay -Qdtq)'
-
-# common commands aliases
-alias grep='grep --line-number --color'
-alias ls='ls --color'
-alias ll='ls -Flah'
-alias mkdir='mkdir -p'
-function mkcd {
-  mkdir "$1"
-  cd "$1"
-}
-alias ip='ip --color'
-alias cp='cp -r -v'
-
-# aeroplane mode aliases
-alias takeoff='rfkill block all'
-alias land='rfkill unblock all'
-
-# bluetooth aliases
-alias blon='bluetoothctl power on'
-alias bloff='bluetoothctl power off'
-alias bldevices='bluetoothctl devices'
-alias blpair='bluetoothctl pair'
-alias blconnect='bluetoothctl connect'
-alias bldisconnect='bluetoothctl disconnect'
-alias blscan='bluetoothctl scan on'
-
-# power management aliases
-alias shu='poweroff'
-alias reb='reboot'
-alias hib='systemctl hibernate'
-alias acf='auto-cpufreq'
-# PlatformIO aliases
-alias piobuild='pio run --target build --environment'
-alias pioupload='pio run --target upload --environment'
-alias piomonitor='pio ps aux | grep -v grep | grep -i -e VSZ -erun --target monitor --environment'
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
-
-# NetworkManager CLI shortcuts
-alias nml='nmcli d w l'
-alias nmr='nmcli d w l --rescan yes'
-alias nmc='nmcli d w c'
-
-# NMap aliases
-alias knockknock='sudo nmap -sn $(hostname -i)/24'
-
-# Docker initialisation script
-alias dockerstart='sudo ~/.docker_start.sh'
-alias dockerstop='sudo ~/.docker_stop.sh'
-
-# Github aliases
-function quickpush {
-  git add .
-  git status 
-  git commit -m "quick push"
-  git push
-}
-function cuickpush {
-  git add .
-  git status 
-  git commit -m $1
-  git push
-}
-# neofetch
-alias nf='neofetch'
-# un jour je ferai marcher pyfda mais pour l'instant ça me saoule mdr
-# Alias to run pyfda with legible text
-#function pyfda { 
-#	plasma-apply-colorscheme BreezeLight;
-#	pyfdax;
-#	plasma-apply-colorscheme SweetAmbarBlue;
-#}
-alias pf='pfetch'
-
-
+eval "$(zoxide init zsh)"
