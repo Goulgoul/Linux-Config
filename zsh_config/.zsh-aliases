@@ -58,6 +58,7 @@ alias dockerstart='sudo ~/.docker_start.sh'
 alias dockerstop='sudo ~/.docker_stop.sh'
 
 # Github aliases
+alias gitka='gitk --all'
 function quickpush {
   git add .
   git commit -m "quick push"
