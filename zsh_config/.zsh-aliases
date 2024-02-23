@@ -8,7 +8,7 @@ alias yayclean='yay -Rc $(yay -Qdtq)'
 # common commands aliases
 alias grep='grep --line-number --color'
 alias cd='z'
-alias 'cd ?'='zi'
+alias cou='zi'
 alias ls='ls --color'
 alias ll='ls -Flah'
 alias mkdir='mkdir -p'
@@ -49,7 +49,8 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias nml='nmcli d w l'
 alias nmr='nmcli d w l --rescan yes'
 alias nmc='nmcli d w c'
-
+alias nmrc='nmr && nmc'
+alias nmwon='nmcli r w on'
 # NMap aliases
 alias knock-knock='sudo nmap -sn $(hostname -i)/24'
 
