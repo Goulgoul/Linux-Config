@@ -9,8 +9,10 @@ alias yayclean='yay -Rc $(yay -Qdtq)'
 alias grep='grep --line-number --color'
 alias cd='z'
 alias cou='zi'
-alias ls='ls --color'
-alias ll='ls -Flah'
+# alias ls='ls --color'
+# alias ll='ls -Flah'
+alias ls='exa'
+alias ll='exa -lAh'
 alias mkdir='mkdir -p'
 function mkcd {
   mkdir "$1"
@@ -53,6 +55,8 @@ alias nmrc='nmr && nmc'
 alias nmwon='nmcli r w on'
 # NMap aliases
 alias knock-knock='sudo nmap -sn $(hostname -i)/24'
+# cURL aliases
+alias curl='curl -v'
 
 # Docker initialisation script
 alias dockerstart='sudo ~/.docker_start.sh'
@@ -80,4 +84,12 @@ alias nf='neofetch'
 #	plasma-apply-colorscheme SweetAmbarBlue;
 #}
 alias pf='pfetch'
-
+man() {
+ LESS_TERMCAP_md=%F{red} \
+ LESS_TERMCAP_me=$'\e[0m' \
+ LESS_TERMCAP_us=$'\e[01;32m' \
+ LESS_TERMCAP_ue=$'\e[0m' \
+ LESS_TERMCAP_so=$'\e[45;93m' \
+ LESS_TERMCAP_se=$'\e[0m' \
+ command man "$@"
+}
