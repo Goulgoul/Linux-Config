@@ -1,3 +1,4 @@
+alias sl='sl -acdFln12we'
 alias hi='/home/mouss/.hi.sh'
 alias bye='(pkill -15 -f wayland || pkill -15 -f xserver) && pkill -15 -f pulseaudio && pkill -15 -f sddm'
 
@@ -11,12 +12,15 @@ alias cd='z'
 alias cou='zi'
 # alias ls='ls --color'
 # alias ll='ls -Flah'
-alias ls='exa'
-alias ll='exa -lAh'
+alias ls='exa --icons=always'
+alias ll='ls -lAh --sort=type'  
 alias mkdir='mkdir -p'
 function mkcd {
   mkdir "$1"
   cd "$1"
+}
+rmcache(){
+  sudo rm -rf ~/.local/share/Trash ~/.cache /var/cache
 }
 alias ip='ip --color'
 alias cp='cp -r -v'
@@ -51,7 +55,7 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias nml='nmcli d w l'
 alias nmr='nmcli d w l --rescan yes'
 alias nmc='nmcli d w c'
-alias nmrc='nmr && nmc'
+alias nmrc='nmr | head -n 10 && nmc'
 alias nmwon='nmcli r w on'
 # NMap aliases
 alias knock-knock='sudo nmap -sn $(hostname -i)/24'

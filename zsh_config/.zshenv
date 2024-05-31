@@ -1,4 +1,5 @@
 typeset -U path PATH
+export LC_ALL=en_US.UTF-8
 
 export PATH=$PATH:$HOME/.local/bin
 
