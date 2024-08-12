@@ -9,6 +9,7 @@ alias yayclean='yay -Rc $(yay -Qdtq)'
 # common commands aliases
 alias grep='grep --line-number --color'
 alias cd='z'
+alias cdd='cd ~/Downloads/'
 alias cou='zi'
 # alias ls='ls --color'
 # alias ll='ls -Flah'
@@ -49,7 +50,8 @@ alias acf='auto-cpufreq'
 alias piobuild='pio run --target build --environment'
 alias pioupload='pio run --target upload --environment'
 alias piomonitor='pio run --target monitor --environment'
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
+# ESP-IDF
+alias 'get_idf'='. ./git/esp/esp-idf/export.sh'
 
 # NetworkManager CLI shortcuts
 alias nml='nmcli d w l'
@@ -58,7 +60,7 @@ alias nmc='nmcli d w c'
 alias nmrc='nmr | head -n 10 && nmc'
 alias nmwon='nmcli r w on'
 # NMap aliases
-alias knock-knock='sudo nmap -sn $(hostname -i)/24'
+alias knock-knock='sudo nmap -sn $(hostname -i)/24' # requires NMap and net-tools on Arch
 # cURL aliases
 alias curl='curl -v'
 
@@ -97,3 +99,10 @@ man() {
  LESS_TERMCAP_se=$'\e[0m' \
  command man "$@"
 }
+
+function grupdate
+{
+	grub-mkconfig -o /boot/grub/grub.cfg
+	grub-mkconfig -o /boot/efi/EFI/Arch/grub.cfg
+}
+alias get_idf='source ~/esp/v5.2.2/esp-idf/export.sh'
