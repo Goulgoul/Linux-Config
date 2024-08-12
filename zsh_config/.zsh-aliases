@@ -60,7 +60,7 @@ alias nmc='nmcli d w c'
 alias nmrc='nmr | head -n 10 && nmc'
 alias nmwon='nmcli r w on'
 # NMap aliases
-alias knock-knock='sudo nmap -sn $(hostname -i)/24' # requires NMap and net-tools on Arch
+alias knock-knock='sudo nmap -sn $(hostname -i)/24' # requires NMap and core/inetutils on Arch
 # cURL aliases
 alias curl='curl -v'
 
