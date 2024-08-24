@@ -3,7 +3,7 @@ import = ["~/.config/alacritty/breeze.toml"]
 
 [window]
 decorations = "None"
-opacity = 0.8
+opacity = 1.0
 blur = false
 dynamic_title = true
 startup_mode = "Windowed"

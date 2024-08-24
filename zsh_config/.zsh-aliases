@@ -33,10 +33,10 @@ alias land='rfkill unblock all'
 # bluetooth aliases
 alias blon='bluetoothctl power on'
 alias bloff='bluetoothctl power off'
-alias bldevices='bluetoothctl devices'
+alias bldev='bluetoothctl devices'
 alias blpair='bluetoothctl pair'
-alias blconnect='bluetoothctl connect'
-alias bldisconnect='bluetoothctl disconnect'
+alias blcon='bluetoothctl connect'
+alias bldisc='bluetoothctl disconnect'
 alias blscan='bluetoothctl scan on'
 
 # power management aliases
